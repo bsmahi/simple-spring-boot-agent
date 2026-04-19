@@ -227,7 +227,3 @@ The `pom.xml` includes commented-out dependencies for additional AgentCore capab
 **Mahendra Rao B** — [bs.mahi@gmail.com](mailto:bs.mahi@gmail.com)
 
 ---
-
-## License
-
-This project is open source. See the repository for license details.
