@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: simple-spring-boot-agent
+  ai:
+    bedrock:
+      aws:
+        region: ap-south-1
+      converse:
+        chat:
+          options:
+             model: global.amazon.nova-2-lite-v1:0
+#agentcore:
+#  memory:
+#    memory_id: memory_30gwv-btuxZgFWOb
+#    default-session: default
+#    page-size: 50
+#    ignore-unknown-roles: true
+#    long-term:
+#      auto-discovery: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: health
+
+# logging properties
+logging:
+  level:
+    org:
+      springaicommunity:
+        agentcore: DEBUG
+    root: INFO
+
+
