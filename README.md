@@ -227,3 +227,9 @@ The `pom.xml` includes commented-out dependencies for additional AgentCore capab
 **Mahendra Rao B** — [bs.mahi@gmail.com](mailto:bs.mahi@gmail.com)
 
 ---
+## References 
+- **Bedrock Converse API:** https://docs.spring.io/spring-ai/reference/api/chat/bedrock-converse.html
+- https://spring.io/ai
+- **Amazon Bedrock AgentCore:** https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html
+- **Spring AI:** https://spring.io/projects/spring-ai
+- **AWS Blog Spring AI SDK:** https://aws.amazon.com/blogs/machine-learning/spring-ai-sdk-for-amazon-bedrock-agentcore-is-now-generally-available/
