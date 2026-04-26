@@ -29,7 +29,7 @@ public class SampleChatAgent {
      * You can annotate only one method per application with this annotation.
      * Multiple @AgentCoreInvocation methods found. Only one is allowed in MVP.
      */
-    @AgentCoreInvocation
+    //@AgentCoreInvocation
     public String agentCoreHandler(PromptRequest promptRequest,
                                    AgentCoreContext agentCoreContext){
         String sessionId = agentCoreContext.getHeader(AgentCoreHeaders.SESSION_ID);

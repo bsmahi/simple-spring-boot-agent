@@ -45,10 +45,10 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-webflux</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springdoc</groupId>
@@ -61,26 +61,32 @@
             <artifactId>spring-ai-starter-model-bedrock-converse</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-model</artifactId>
+            <version>${spring-ai.version}</version>
+        </dependency>
+
         <!-- AgentCore Capabilities Dependencies, add one by one or as needed -->
         <dependency>
             <groupId>org.springaicommunity</groupId>
             <artifactId>spring-ai-agentcore-runtime-starter</artifactId>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.springaicommunity</groupId>-->
-<!--            <artifactId>spring-ai-agentcore-memory</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springaicommunity</groupId>
+            <artifactId>spring-ai-agentcore-memory</artifactId>
+        </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.springaicommunity</groupId>-->
-<!--            <artifactId>spring-ai-agentcore-browser</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springaicommunity</groupId>
+            <artifactId>spring-ai-agentcore-browser</artifactId>
+        </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.springaicommunity</groupId>-->
-<!--            <artifactId>spring-ai-agentcore-code-interpreter</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springaicommunity</groupId>
+            <artifactId>spring-ai-agentcore-code-interpreter</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

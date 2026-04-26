@@ -1,0 +1,17 @@
+# --- Short-Term Memory (STM) ---
+# Tell your name and what you're talking about
+curl -X POST http://localhost:8080/api/short \
+    -H "Content-Type: application/json" \
+    -d '{"message": "Mahendra is writing an article to Foojay on Spring AI SDK with Amazon Bedrock Agentcore"}'
+
+# Ask for your name (memory recall)
+curl -X POST http://localhost:8080/api/short \
+    -H "Content-Type: application/json" \
+    -d '{"message": "What is my name?"}'
+
+
+# Get conversation history
+curl http://localhost:8080/api/history
+
+# Clear conversation
+curl -X DELETE http://localhost:8080/api/history

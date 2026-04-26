@@ -17,3 +17,25 @@ Content-Type: application/json
 Accept: text/event-stream
 
 { "prompt" : "Tell me about Spring AI in detail." }
+
+### Tell name - STM
+POST http://localhost:8080/api/short
+Content-Type: application/json
+
+{
+  "message": "Mahendra is writing an article to Foojay on Spring AI SDK with Amazon Bedrock Agentcore"
+}
+
+### Ask name - STM
+POST http://localhost:8080/api/short
+Content-Type: application/json
+
+{
+  "message": "What is my name?"
+}
+
+### Get history
+GET http://localhost:8080/api/history
+
+### Clear history
+DELETE http://localhost:8080/api/history
