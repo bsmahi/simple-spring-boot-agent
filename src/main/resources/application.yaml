@@ -9,6 +9,13 @@ spring:
         chat:
           options:
              model: global.amazon.nova-2-lite-v1:0
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+
 agentcore:
   memory:
     memory_id: memory_27vql-Vl7nIoHdf6
